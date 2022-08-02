@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -22,6 +23,7 @@ p{
 }
 li{
     list-style-type: none;
+    
     
     
 }
@@ -48,6 +50,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav__link--list {
@@ -87,11 +90,18 @@ nav {
     display: flex;
     flex-direction: column;
 }
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
 .about-me__info--container { 
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 500px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .about-me__info--mask { 
@@ -113,14 +123,15 @@ nav {
 .about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
-    margin-top: 28px;
+    margin-top: 16px;
     
 }
 .about-me__info--title {
     font-size: 16px;
+    
 }
 
-/* list 1, 2, 3 */ 
+/* link list 1, 2, 3 */ 
 .list-1 {
     margin: 0 12px;
     
@@ -130,4 +141,19 @@ margin: 0 12px ;
 }
 .list-3 {
 margin: 0 12px;
+}
+
+.about-me__link {
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.about-me__img {
+    width: 100%;
 }
