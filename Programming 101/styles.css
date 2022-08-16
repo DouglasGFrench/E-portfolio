@@ -264,3 +264,31 @@ cursor: no-drop;
     display: flex;
     flex-wrap: wrap;
 }
+
+#browse {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+.browse__row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.no-cursor {
+    cursor: not-allowed;
+}
+
+footer {
+    background-color: #242424;
+
+}
+.footer__logo--img {
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__social--link,
+.footer__copyright {
+    
+}
