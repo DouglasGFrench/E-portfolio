@@ -584,3 +584,125 @@ line-height: 20px;
     margin-top: 12px;
     max-width: 320px;
 }
+
+/* twocolwithtwohor section gaming */
+#twocoltwohor {
+    color: rgb(36, 62, 99);
+    line-height: 24px;
+}
+.twocolwithtwohor__container {
+    position: relative;
+}
+.twocolwithtwohor__twocolumn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 96px 0; 
+}
+.twocolwithhor__imagecolumn {
+    width: 50%;
+    flex-shrink: 0;
+    position: relative;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    /* width: 640px; */
+}
+.twocolwithtwohor__image {
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+    height: auto;
+}
+.twocolwithtwohor__textcolumn {
+    width: 50%;
+    margin-right: 64px;
+    max-width: none;
+    order: -9999;
+    /* width: 576px; */
+}
+.twocolwithtwohor__textcontent {
+    padding: 32px 0;
+    text-align: left;
+
+}
+.twocolwithtwohor__subheading {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+
+}
+.twocolwithtwohor__heading {
+    color: rgb(36, 62, 99);
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin-top: 16px;?
+    text-align: left;
+}
+.twocolwithtwohor__description {
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 32px;
+    text-align: left;
+    line-height: 1.65;
+}
+.twocolwithtwohor__featuresandbutton--feature {
+    display: flex;
+    flex-direction: row;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+.twocolwithtwohor__feature {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 32px 32px 0 0;
+}
+.twocolwithtwohor__featureheading--container {
+    display: flex;
+    align-items: center;
+    color: rgb(36, 62, 99);
+}
+.twocolwithtwohor__featureicon{
+background-color: rgb(154, 230, 180);
+border-radius: 999px;
+border-style: solid;
+color: rgb(39, 103, 73);
+flex-shrink: 0;
+margin-right: auto;
+padding: 8px;
+text-align: center;
+border-width: 0;
+line-height: 24px;
+display: inline-block;
+}
+.twocolwithtwohor__featureheading {
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 12px;
+    color: rgb(36, 62, 99);
+}
+.twocolwithtwohor__featuredescription {
+    color: rgb(113, 128, 150);
+    line-height: 26px;
+    margin-top: 16px;
+    text-align: left;
+    
+}
+.twocolwithtwohor__feature
+.twocolwithtwohor__featureheading--container
+.twocolwithtwohor__featureicon
+.twocolwithtwohor__featureheading
+.twocolwithtwohor__featuredescription
+.twocolwithtwohor__featuredescription
+.twocolwithtwohor__PrimaryButton
